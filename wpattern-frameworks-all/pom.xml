@@ -162,6 +162,13 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- WPATTERN FRAMEWORKS RESTEASY UTILS -->
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>wpattern-frameworks-resteasy-utils</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			
 			<!-- JAVAX INJECT -->
 			<dependency>
 				<groupId>javax.inject</groupId>
